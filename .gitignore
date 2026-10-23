@@ -1,0 +1,27 @@
+
+# macOS system files
+.DS_Store
+.AppleDouble
+
+# VS Code settings
+.vscode/
+
+# other editor settings
+.idea/
+
+# log files
+*.log
+
+# temporary files
+*.tmp
+*.swp
+*~
+
+# backup files
+*.bak
+*.old
+
+# environment variables and secrets
+.env
+.env.*
+!.env.example
