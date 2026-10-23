@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About | Tan Vouchleang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('vl-theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light')</script>
+</head>
+
+<body>
+  <canvas id="bg"></canvas>
+
+  <main class="wrap">
+
+    <section class="about">
+      <div class="card reveal" data-tilt><img src="assets/img/achievement.jpeg" alt="Tan Vouchleang"></div>
+      <div class="reveal">
+        <h1 class="grad">About Me</h1>
+        <p style="margin-top:20px;font-size:1.1rem">I am a Data Science student who loves to turn data into useful
+          answers. I also teach math, so I know how to explain hard ideas in simple steps. That helps me think clearly
+          and solve problems with logic.</p>
+        <div class="card age" id="ageBox">
+          <small>My age (click to change the unit)</small>
+          <h3 id="ageDisplay">Loading...</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">Quick Facts</h2>
+      <div class="grid">
+        <div class="card fact reveal"><small>Nationality</small>
+          <h3>Cambodian</h3>
+        </div>
+        <div class="card fact reveal"><small>Location</small>
+          <h3>Phnom Penh</h3>
+        </div>
+        <div class="card fact reveal"><small>Languages</small>
+          <h3>Khmer, English B2, French B1</h3>
+        </div>
+        <div class="card fact reveal"><small>Goal</small>
+          <h3>Data Scientist <br> AI Engineer</h3>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">Experience</h2>
+      <div class="tl">
+        <div class="card item reveal">
+          <span class="muted-date">2025 – Present</span>
+          <h3>Mathematics Teacher</h3>
+          <p>Mekun Academy. I teach math concepts and help students build logic.</p>
+        </div>
+        <div class="card item reveal">
+          <span class="muted-date">23 August 2025</span>
+          <h3>Group Leader</h3>
+          <p>IYF Korean Camp. I led my group and kept everyone working together.</p>
+        </div>
+        <div class="card item reveal">
+          <span class="muted-date">4–5 June 2026</span>
+          <h3>AMS Volunteer</h3>
+          <p>Scientific Day. I told high school students about the AMS department.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="reveal">Ask Me</h2>
+      <div class="reveal">
+        <details>
+          <summary>How does teaching help my data work?</summary>
+          <p>I am used to explaining hard ideas in simple words. So my reports and charts are clear for people who are
+            not experts.</p>
+        </details>
+        <details>
+          <summary>What am I learning now?</summary>
+          <p>Machine learning (AI), data analysis, and pre-advanced programming skills. I practice them with small projects on GitHub.</p>
+        </details>
+        <details>
+          <summary>What do I want next?</summary>
+          <p>An internship in data science or analytics, where I can learn from a team and build real things.</p>
+        </details>
+      </div>
+    </section>
+
+    <section>
+      <div class="cta reveal">
+        <h2 style="margin-bottom:0">Want to see what I built?</h2>
+        <div class="btns"><a class="btn" href="projects.html">View projects</a></div>
+      </div>
+    </section>
+
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact | Tan Vouchleang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('vl-theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light')</script>
+</head>
+
+<body>
+  <canvas id="bg"></canvas>
+
+  <main class="wrap">
+
+    <section class="page-title reveal">
+      <h1 class="grad">Let’s Talk</h1>
+      <p><span class="dot"></span>I am open to internships and team projects. Send me a message!</p>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="two">
+        <!-- message form -->
+        <div class="card reveal">
+          <h2 style="font-size:1.5rem">Send a message</h2>
+          <form id="form">
+            <input name="name" placeholder="Your name" required>
+            <input name="mail" type="email" placeholder="Your email" required>
+            <textarea name="msg" rows="5" placeholder="Your message" required></textarea>
+            <button class="btn" type="submit"><i class="fa-solid fa-paper-plane"></i> Send</button>
+          </form>
+        </div>
+        <!-- contact card -->
+        <div class="grid" style="grid-template-columns:1fr;align-content:start">
+          <a class="card ccard reveal" data-tilt style="--ac:#a855f7" href="https://github.com/tan-vouchleang"
+            target="_blank">
+            <span class="ico"><i class="fa-brands fa-github"></i></span>
+            <div><b>GitHub</b><span>tan-vouchleang</span></div>
+          </a>
+          <a class="card ccard reveal" data-tilt style="--ac:#0ea5e9"
+            href="https://www.linkedin.com/in/vouchleang-tan-29a491376/" target="_blank">
+            <span class="ico"><i class="fa-brands fa-linkedin"></i></span>
+            <div><b>LinkedIn</b><span>vouchleang-tan</span></div>
+          </a>
+          <a class="card ccard reveal" data-tilt style="--ac:#22d3ee" href="https://t.me/tanvouchleang" target="_blank">
+            <span class="ico"><i class="fa-brands fa-telegram"></i></span>
+            <div><b>Telegram</b><span>@tanvouchleang</span></div>
+          </a>
+          <a class="card ccard reveal" data-tilt style="--ac:#e879f9" href="mailto:tanvouchleang@gmail.com"
+            data-copy="tanvouchleang@gmail.com">
+            <span class="ico"><i class="fa-solid fa-envelope"></i></span>
+            <div><b>Email (click to copy)</b><span>tanvouchleang@gmail.com</span></div>
+          </a>
+          <a class="card ccard reveal" data-tilt style="--ac:#22c55e" href="tel:+855768999998"
+            data-copy="+855 76 899 9998">
+            <span class="ico"><i class="fa-solid fa-phone"></i></span>
+            <div><b>Phone (click to copy)</b><span>+855 76 899 9998</span></div>
+          </a>
+          <a class="card ccard reveal" data-tilt style="--ac:#fb923c" href="assets/Tan_Vouchleang_CV.pdf"
+            target="_blank">
+            <span class="ico"><i class="fa-solid fa-file-arrow-down"></i></span>
+            <div><b>CV / Resume</b><span>Open my resume</span></div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

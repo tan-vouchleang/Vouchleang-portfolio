@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projects | Tan Vouchleang</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.dataset.theme = localStorage.getItem('vl-theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light')</script>
+</head>
+
+<body>
+  <canvas id="bg"></canvas>
+
+  <main class="wrap">
+
+    <section class="page-title reveal">
+      <h1 class="grad">Projects</h1>
+      <p>School and self-learning work in data, code, math, and systems. Click a card to see the details, the GitHub
+        code, and the live demo.</p>
+    </section>
+
+    <section style="padding-top:0">
+      <div class="tools-bar">
+        <button class="on" data-f="all">All</button>
+        <button data-f="ml">Machine Learning</button>
+        <button data-f="data">Data</button>
+        <button data-f="math">Math</button>
+        <button data-f="system">Systems</button>
+        <input id="search" type="search" placeholder="Search a project..." aria-label="Search projects">
+      </div>
+      <div class="grid" id="projectGrid"></div>
+    </section>
+
+  </main>
+
+  <dialog id="modal"></dialog>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
