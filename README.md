@@ -6,6 +6,11 @@ This website showcases my background, education, technical skills, and projects 
 
 I'm **Tan Vouchleang**, a Data Science student at the Institute of Technology of Cambodia (ITC). I'm interested in Data Science, Machine Learning, and Artificial Intelligence, and I'm continuously developing my programming and analytical skills.
 
+## Live Demo
+
+- **Portfolio:** https://tan-vouchleang.github.io/Vouchleang-portfolio/
+- **GitHub Repository:** https://github.com/tan-vouchleang/Vouchleang-portfolio
+
 ## Features
 
 - **Home** : Introduction and personal profile
@@ -32,11 +37,6 @@ Some projects featured in my portfolio include:
 - Numerical Analysis (Root Finding)
 - Retail Demand Forecasting
 - More...
-
-## Live Demo
-
-- **Portfolio:** https://tan-vouchleang.github.io/Vouchleang-portfolio/
-- **GitHub Repository:** https://github.com/tan-vouchleang/Vouchleang-portfolio
 
 ## Getting Started
 
