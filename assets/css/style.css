@@ -542,17 +542,6 @@ details[open] summary {
   position: relative;
   margin-bottom: 24px;
 }
-.tl .item::before {
-  content: "";
-  position: absolute;
-  left: -34px;
-  top: 26px;
-  width: 19px;
-  height: 19px;
-  border-radius: 50%;
-  background: var(--bg);
-  border: 4px solid var(--a);
-}
 
 /* gpa chart */
 .gpa {

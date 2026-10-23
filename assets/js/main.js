@@ -191,7 +191,7 @@ document.body.insertAdjacentHTML(
         <a href="https://t.me/tanvouchleang" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
       </div>
     </div>
-    <p class="copy">© 2026 Tan Vouchleang · Data Science</p>
+    <p class="copy">© 2026 Tan Vouchleang . Data Science</p>
   </div></footer><div class="toast" id="toast"></div>`,
 );
 
