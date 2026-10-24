@@ -387,7 +387,7 @@ if ($("plot")) {
     c.lineTo(w * t, (1 - (f.b + f.m * t)) * h);
     c.stroke();
     $("plotInfo").textContent =
-      `slope ${f.m.toFixed(2)} · R² ${f.r2.toFixed(2)}`;
+      `Slope ${f.m.toFixed(2)} . R² ${f.r2.toFixed(2)}`;
   }
   function make() {
     const slope = Math.random() * 1.6 - 0.8,
